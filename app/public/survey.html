@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder - Survey</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+ 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <h2><i class="far fa-clipboard"></i> Survey Questions - All Fields are Required</h2>
+        <hr>
+        <form action="">
+            <h3><strong>About You</strong></h3>
+            <div class="form-group row">
+                <label for="name" class="col-sm-2 col-form-label col-form-label">Your Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control" id="name" placeholder="Your name here..." required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="pic" class="col-sm-2 col-form-label">Link to Your Picture</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="pic" placeholder="url to your photo" required>
+                </div>
+            </div>
+            <hr>
+            <h3><strong>Question 1</strong></h3>
+            <div class="form-group row">
+                <label for="q1" class="col-sm-2 col-form-label">I like music.</label>
+                <div class="col-sm-10">
+                    <select id="q1" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 2</strong></h3>
+            <div class="form-group row">
+                <label for="q2" class="col-sm-2 col-form-label">I warm up quickly to others.</label>
+                <div class="col-sm-10">
+                    <select id="q2" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 3</strong></h3>
+            <div class="form-group row">
+                <label for="q3" class="col-sm-2 col-form-label">I trust what people say.</label>
+                <div class="col-sm-10">
+                    <select id="q3" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 4</strong></h3>
+            <div class="form-group row">
+                <label for="q4" class="col-sm-2 col-form-label">I am always prepared.</label>
+                <div class="col-sm-10">
+                    <select id="q4" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 5</strong></h3>
+            <div class="form-group row">
+                <label for="q5" class="col-sm-2 col-form-label">I believe that others have good intentions.</label>
+                <div class="col-sm-10">
+                    <select id="q5" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 6</strong></h3>
+            <div class="form-group row">
+                <label for="q6" class="col-sm-2 col-form-label">I seek adventure.</label>
+                <div class="col-sm-10">
+                    <select id="q6" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 7</strong></h3>
+            <div class="form-group row">
+                <label for="q7" class="col-sm-2 col-form-label">I like order.</label>
+                <div class="col-sm-10">
+                    <select id="q7" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 8</strong></h3>
+            <div class="form-group row">
+                <label for="q8" class="col-sm-2 col-form-label">I prefer variety to routine.</label>
+                <div class="col-sm-10">
+                    <select id="q8" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 9</strong></h3>
+            <div class="form-group row">
+                <label for="q9" class="col-sm-2 col-form-label">I am easy to satisfy.</label>
+                <div class="col-sm-10">
+                    <select id="q9" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <h3><strong>Question 10</strong></h3>
+            <div class="form-group row">
+                <label for="q10" class="col-sm-2 col-form-label">I love large parties.</label>
+                <div class="col-sm-10">
+                    <select id="q10" class="custom-select custom-select-lg mb-3" required>
+                        <option value=""></option>
+                        <option value="1">One (Strongly Disagree)</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group-row">
+                <button id="submitMe" type="submit" class="btn btn-primary col-sm-12"><i class="far fa-arrow-alt-circle-up"></i> Submit</button>
+            </div>
+        </form>
+        <br>
+        <br>
+        <hr>
+        <footer class="footer">
+          <div class="container">
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/IyAmGroot/FriendFinder">GitHub Repo</a></p>
+          </div>
+        </footer>
+    </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myMatchModal">
+            Launch demo modal
+          </button>
+    <!-- Modal -->
+  <div id="myMatchModal" class="modal fade " role="dialog">
+        <div class="modal-dialog modal-lg">
+    
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title"><strong>Best Match</strong></h2>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+              <!-- <h2 class="modal-title"><strong>Best Match</strong></h2> -->
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 id="myMatchName"></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img id="myMatchImg" src="https://sdalighting.files.wordpress.com/2015/02/star-trek-spock1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+              
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    <script type="text/javascript">
+        $("#submitMe").on("click", function(event){
+            event.preventDefault();
+
+            //validation handled by bootstrap, so just put data into object and post
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#pic").val(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            };
+            $.post("/api/friends", userData, function(data) {
+                $("#myMatchName").text(data.name);
+                $("#myMatchImg").attr("src", data.photo);
+                $("#myMatchModal").modal("toggle");
+            });
+        });
+    </script>
+</body>
+</html>
